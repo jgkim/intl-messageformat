@@ -28,6 +28,9 @@
   },
   "main": "index.js",
   "jsnext:main": "src/main.js",
+  "react-native": {
+    "./lib/locales": "./lib/locales.js"
+  },
   "browser": {
     "./lib/locales": false,
     "./lib/locales.js": false
